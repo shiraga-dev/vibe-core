@@ -11,7 +11,4 @@ abstract contract vibeScript is Script {
     _;
     vm.stopBroadcast();
   }
-
-  function setUp() public virtual {}
-  function run() external virtual { setUp(); }
 }
